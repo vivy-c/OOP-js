@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construtor Function</title>
+</head>
+
+<body>
+    <script>
+        // sebelmu js ES6 class di js menggunakan constructor function cara penamaannya dengan huruf awalnya kapital semua
+        function Person() {
+            //property di constructor function
+            this.firstName = ""
+            this.lastName = ""
+
+        }
+
+        const vivy = new Person();
+        vivy.firstName = "Vivy";
+        vivy.lastName = "Cahyani";
+
+        const budi = new Person();
+        vivy.firstName = "Budi";
+        vivy.lastName = "Nugraha";
+
+        console.log(vivy);
+        console.log(budi);
+    </script>
+</body>
+
+</html>
